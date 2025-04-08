@@ -137,7 +137,7 @@ app.get('/', (req, res) => {
 });
 
 // Set up server on port 3000
-const port = 3000;
+const port = 3007;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
