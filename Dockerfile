@@ -6,5 +6,5 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 4001
+EXPOSE 4002
 CMD ["node" , "app.js"]
