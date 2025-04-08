@@ -137,7 +137,7 @@ app.get('/', (req, res) => {
 });
 
 // Set up server on port 4001
-const port = 4001;
+const port = 4002;
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on http://0.0.0.0:${port}`);
 });
