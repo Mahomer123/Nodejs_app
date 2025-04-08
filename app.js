@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Welcome to Ottawa's Visitor Center/title>
+      <title>Welcome to Ottawa's Visitor Center</title>
       <style>
         body {
           margin: 0;
@@ -136,8 +136,8 @@ app.get('/', (req, res) => {
   `);
 });
 
-// Set up server on port 3000
-const port = 3009;
+// Set up server on port 4001
+const port = 4001;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
